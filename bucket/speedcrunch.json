@@ -13,10 +13,10 @@
             "SpeedCrunch"
         ]
     ],
-	"persist": [
-		"SpeedCrunch.ini",
-		"history.json"
-	],
+    "persist": [
+        "SpeedCrunch.ini",
+        "history.json"
+    ],
     "checkver": {
         "url": "https://heldercorreia.bitbucket.io/speedcrunch/download.html",
         "regex": "VERSION:[ ]+'([\\d.]+)',"
