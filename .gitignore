@@ -3,3 +3,8 @@
 ._*
 page.html
 checkver-*.html
+.github/ISSUE_TEMPLATE/*
+.github/pull_request_template.md
+.github/workflows/issue_comment.yml
+.github/workflows/issues.yml
+.github/workflows/pull_request.yml
