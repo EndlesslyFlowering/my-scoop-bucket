@@ -1,0 +1,22 @@
+{
+    "version": "3.1",
+    "description": "Add margins, rounded corners and segments to your taskbars!",
+    "homepage": "https://github.com/torchgm/RoundedTB",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/torchgm/RoundedTB/releases/download/R3.1/RoundedTB_R3.1.zip",
+    "hash": "1fb9fe40bceb39d681df733c2822165a78ff0b7d627be1c0eba0f73be5376f5b",
+    "bin": "RoundedTB.exe",
+    "shortcuts": [
+        [
+            "RoundedTB.exe",
+            "RoundedTB"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/torchgm/RoundedTB",
+        "regex": "/releases/tag/R([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://github.com/torchgm/RoundedTB/releases/download/R$version/RoundedTB_R$version.zip"
+    }
+}
