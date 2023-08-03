@@ -1,5 +1,5 @@
 {
-    "version": "20230801",
+    "version": "20230803",
     "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
@@ -11,8 +11,8 @@
     "suggest": {
         "yt-dlp": "yt-dlp"
     },
-    "url": "https://github.com//shinchiro/mpv-winbuild-cmake/releases/download/20230801/mpv-x86_64-v3-20230801-git-3b19866.7z",
-    "hash": "f773a29e37fe0cabc386e841d917df382424a0f75147234d037bb2722c47fac9",
+    "url": "https://github.com//shinchiro/mpv-winbuild-cmake/releases/download/20230803/mpv-x86_64-v3-20230803-git-14504e0.7z",
+    "hash": "7c27b1ee10c65620e0dc5877c8b69b3e4e130dfada65a91f8deeab960ea4e9c4",
     "bin": "mpv.com",
     "shortcuts": [
         [
