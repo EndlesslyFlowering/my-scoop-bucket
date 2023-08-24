@@ -17,7 +17,7 @@
     ],
     "checkver": {
         "url": "https://www.monitortests.com/forum/Thread-Custom-Resolution-Utility-CRU",
-        "regex": "cru-([\\d.]+)\\.zip"
+        "regex": "cru-([\\d\\.]+)\\.zip"
     },
     "autoupdate": {
         "url": "https://www.monitortests.com/download/cru/cru-$version.zip"
