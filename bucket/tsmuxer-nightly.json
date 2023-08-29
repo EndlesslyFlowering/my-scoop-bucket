@@ -1,10 +1,10 @@
 {
-    "version": "2023-08-27-01-53-25",
+    "version": "2023-08-29-02-14-33",
     "description": "tsMuxer",
     "homepage": "https://github.com/justdan96/tsMuxer",
     "license": "Apache-2.0",
-    "url": "https://github.com/justdan96/tsMuxer/releases/download/nightly-2023-08-27-01-53-25/w64.zip",
-    "hash": "9be0cfddbe9f5d59617fc6ee57ef07ca3e27abaaf9e64e413f59e675448e1700",
+    "url": "https://github.com/justdan96/tsMuxer/releases/download/nightly-2023-08-29-02-14-33/w64.zip",
+    "hash": "7c284dffcb75b9b45312203b6f61d55c66fd198f5e388cea9f19577dc9df1141",
     "bin": [
         "tsMuxeR.exe",
         "tsMuxerGUI.exe"
