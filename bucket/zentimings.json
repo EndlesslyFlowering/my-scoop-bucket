@@ -1,10 +1,10 @@
 {
-    "version": "1.2.9",
+    "version": "1.30",
     "description": "A tool to read RAM timings on AMD Zen CPUs",
     "homepage": "https://github.com/irusanov/ZenTimings",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/irusanov/ZenTimings/releases/download/v1.2.9/ZenTimings_v1.2.9.zip",
-    "hash": "d99031dd85a259127d9519c3fa4b2dd942f23d8a22fbe0bdde27af4a9783093d",
+    "url": "https://github.com/irusanov/ZenTimings/releases/download/v1.30/ZenTimings_v1.30.zip",
+    "hash": "21607f059dcaae59dfdb54627f579e7848f3f80117274b23da786f8c5fad3c6a",
     "bin": "ZenTimings.exe",
     "shortcuts": [
         [
@@ -17,4 +17,3 @@
         "url": "https://github.com/irusanov/ZenTimings/releases/download/v$version/ZenTimings_v$version.zip"
     }
 }
-
