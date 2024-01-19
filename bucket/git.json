@@ -59,6 +59,7 @@
         "usr\\bin\\env.exe",
         "usr\\bin\\expr.exe",
         "usr\\bin\\false.exe",
+        "usr\\bin\\find.exe",
         "usr\\bin\\fold.exe",
         "usr\\bin\\gpg-agent.exe",
         "usr\\bin\\gpg-connect-agent.exe",
