@@ -1,6 +1,6 @@
 {
-    "version": "20250111",
-    "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
+    "version": "20250112",
+    "description": "Video player based on MPlayer/mplayer2 (builds by EndlesslyFlowering)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
     "notes": [
@@ -11,8 +11,8 @@
     "suggest": {
         "yt-dlp": "yt-dlp"
     },
-    "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/20250111/mpv-x86_64-v3-20250111-git-ca211b5.7z",
-    "hash": "55b3da46e9b8e173f1e8ba8bac333531d935506ec41e5761c4e8925a61be06a2",
+    "url": "https://github.com/EndlesslyFlowering/mpv-winbuild-cmake/releases/download/20250112/mpv-x86_64-znver3-20250112-git-ca211b5.7z",
+    "hash": "25522e664d1e297f1304a21b7b27283eda05789c46fe1572f6c2d3a2a86dc5b6",
     "bin": "mpv.com",
     "shortcuts": [
         [
@@ -23,16 +23,16 @@
     "persist": "portable_config",
     "checkver": {
         "script": [
-            "$gh_url = Invoke-WebRequest -Uri 'https://github.com/shinchiro/mpv-winbuild-cmake/releases/latest'",
-            "$gh_ass = $gh_url.Content | Select-String -Pattern 'https://github.com/shinchiro/mpv-winbuild-cmake/releases/expanded_assets/[\\d]+' | % { $_.Matches.Value }",
+            "$gh_url = Invoke-WebRequest -Uri 'https://github.com/EndlesslyFlowering/mpv-winbuild-cmake/releases/latest'",
+            "$gh_ass = $gh_url.Content | Select-String -Pattern 'https://github.com/EndlesslyFlowering/mpv-winbuild-cmake/releases/expanded_assets/[\\d]+' | % { $_.Matches.Value }",
             "$gh_ver = $gh_ass | Select-String -Pattern '[\\d]+' | % { $_.Matches.Value }",
             "$gh_ur2 = Invoke-WebRequest -Uri $gh_ass",
-            "$gh_fil = $gh_ur2.Content | Select-String -Pattern 'mpv-x86_64-v3-[\\d]+-git-[\\da-f]+.7z' | % { $_.Matches.Value }",
+            "$gh_fil = $gh_ur2.Content | Select-String -Pattern 'mpv-x86_64-znver3-[\\d]+-git-[\\da-f]+.7z' | % { $_.Matches.Value }",
             "Write-Output $gh_ver $gh_fil"
         ],
         "regex": "(?<version>.+)\\s(?<filename>.+)"
     },
     "autoupdate": {
-        "url": "https://github.com/shinchiro/mpv-winbuild-cmake/releases/download/$version/$matchFilename"
+        "url": "https://github.com/EndlesslyFlowering/mpv-winbuild-cmake/releases/download/$version/$matchFilename"
     }
 }
