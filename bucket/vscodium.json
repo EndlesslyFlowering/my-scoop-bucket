@@ -57,7 +57,7 @@
         "    info 'patching in VS marketplace'",
         "    $content = Get-Content \"$product_file\"",
         "    $content = $content -replace '( )*\"serviceUrl\":.*','    \"serviceUrl\": \"https://marketplace.visualstudio.com/_apis/public/gallery\",    \"cacheUrl\": \"https://vscode.blob.core.windows.net/gallery/index\",'",
-        "    $content = $content -replace '( )*\"itemUrl\":.*','    \"itemUrl\": \"https://marketplace.visualstudio.com/items\"'",
+        "    $content = $content -replace '( )*\"itemUrl\":.*','    \"itemUrl\": \"https://marketplace.visualstudio.com/items\",'",
         "    $content = $content -replace '( )*\"linkProtectionTrustedDomains.*',''",
         "    $content | Set-Content -Path \"$product_file\"",
         "}"
