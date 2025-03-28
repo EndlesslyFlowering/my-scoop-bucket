@@ -1,10 +1,10 @@
 {
-    "version": "7.6.1",
+    "version": "7.7.0",
     "description": "The Peacock Project is a HITMAN™ World of Assassination trilogy server replacement.",
     "homepage": "https://github.com/thepeacockproject/Peacock",
     "license": "AGPL-3.0-or-later",
-    "url": "https://github.com/thepeacockproject/Peacock/releases/download/v7.6.1/Peacock-v7.6.1.zip",
-    "hash": "e42a77c10d9b4d0c8ee8cdbcee60da9262d8781341c4614da59c0dfaca151403",
+    "url": "https://github.com/thepeacockproject/Peacock/releases/download/v7.7.0/Peacock-v7.7.0.zip",
+    "hash": "f9e8f9b00083d5863b2a58f6b53266523391bd05019f53a682280291bc1ff15b",
     "shortcuts": [
         [
             "PeacockPatcher.exe",
@@ -24,7 +24,7 @@
         "plugins",
         "userdata"
     ],
-    "extract_dir": "Peacock-v7.6.1",
+    "extract_dir": "Peacock-v7.7.0",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/thepeacockproject/Peacock/releases/download/v$version/Peacock-v$version.zip",
