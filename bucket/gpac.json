@@ -1,10 +1,10 @@
 {
-    "version": "2.5-DEV-rev1378-gb39a991d",
+    "version": "2.5-DEV-rev1384-g07c051bb",
     "description": "GPAC",
     "homepage": "https://gpac.wp.imt.fr",
     "license": "LGPL-2.1",
-    "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-2.5-DEV-rev1378-gb39a991d-master-x64.exe#/dl.7z",
-    "hash": "275beb1c00f77ad32438070c01c9d252e17ab380d0b972e65167e5c765ad9f24",
+    "url": "https://download.tsi.telecom-paristech.fr/gpac/new_builds/win64/gpac-2.5-DEV-rev1384-g07c051bb-master-x64.exe#/dl.7z",
+    "hash": "308724bcafe5d3736dff9e20e8abeb466e09f3b3ff522f16e2fa9a0ec5170d44",
     "bin": [
         "mp4box.exe",
         "gpac.exe"
