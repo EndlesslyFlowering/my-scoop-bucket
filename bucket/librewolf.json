@@ -13,44 +13,42 @@
             "hash": "0d60b7d5b9a6ef1b29c3b4710c93dae468fe844097c66d493ea8ce76841614f1"
         }
     },
-    "extract_dir": "librewolf-139.0-1",
+    "extract_dir": "librewolf-139.0-1/LibreWolf",
     "pre_install": [
-        "'LibreWolf-WinUpdater.exe', 'ScheduledTask-Create.ps1', 'ScheduledTask-Remove.ps1' | ForEach-Object { \"$dir/$_\" } | Remove-Item",
-        "",
         "# Customizing LibreWolf Using AutoConfig",
         "# https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig",
         "$null = ensure \"$persist_dir/LibreWolf/defaults/pref\"",
-        "Copy-Item \"$persist_dir/LibreWolf/defaults/pref/*\" \"$dir/LibreWolf/defaults/pref\" -Exclude channel-prefs.js",
-        "Copy-Item \"$persist_dir/LibreWolf/*.js\", \"$persist_dir/LibreWolf/*.cfg\" \"$dir/LibreWolf\"",
+        "Copy-Item \"$persist_dir/LibreWolf/defaults/pref/*\" \"$dir/defaults/pref\" -Exclude channel-prefs.js",
+        "Copy-Item \"$persist_dir/LibreWolf/*.js\", \"$persist_dir/LibreWolf/*.cfg\" \"$dir\"",
         "",
         "# Customizing LibreWolf Using policies.json",
         "# https://support.mozilla.org/en-US/kb/customizing-firefox-using-policiesjson",
         "# Used to override the default policies.json of LibreWolf, if you want",
         "$null = ensure \"$persist_dir/LibreWolf/distribution\"",
-        "Copy-Item \"$persist_dir/LibreWolf/distribution/policies.json\" \"$dir/LibreWolf/distribution\" -ErrorAction SilentlyContinue"
+        "Copy-Item \"$persist_dir/LibreWolf/distribution/policies.json\" \"$dir/distribution\" -ErrorAction SilentlyContinue"
     ],
     "bin": [
         [
-            "LibreWolf/librewolf.exe",
+            "librewolf.exe",
             "librewolf",
             "-Profile \"$persist_dir/Profiles/Default\""
         ]
     ],
     "shortcuts": [
         [
-            "LibreWolf/librewolf.exe",
+            "librewolf.exe",
             "LibreWolf",
             "-Profile \"$persist_dir/Profiles/Default\""
         ],
         [
-            "LibreWolf/private_browsing.exe",
+            "private_browsing.exe",
             "LibreWolf Private Browsing",
             "-Profile \"$persist_dir/Profiles/Default\" -private"
         ]
     ],
     "pre_uninstall": [
-        "Copy-Item \"$dir/LibreWolf/defaults/pref/*\" \"$persist_dir/LibreWolf/defaults/pref\" -Exclude channel-prefs.js",
-        "Copy-Item \"$dir/LibreWolf/*.js\", \"$dir/LibreWolf/*.cfg\" \"$persist_dir/LibreWolf\" -Exclude librewolf.cfg"
+        "Copy-Item \"$dir/defaults/pref/*\" \"$persist_dir/LibreWolf/defaults/pref\" -Exclude channel-prefs.js",
+        "Copy-Item \"$dir/*.js\", \"$dir/*.cfg\" \"$persist_dir/LibreWolf\" -Exclude librewolf.cfg"
     ],
     "checkver": {
         "url": "https://gitlab.com/api/v4/projects/44042130/releases/permalink/latest",
@@ -68,6 +66,6 @@
         "hash": {
             "url": "$url.sha256sum"
         },
-        "extract_dir": "librewolf-$version"
+        "extract_dir": "librewolf-$version/LibreWolf"
     }
 }
