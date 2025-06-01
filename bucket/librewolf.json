@@ -3,6 +3,12 @@
     "description": "A fork of Firefox, focused on privacy, security and freedom.",
     "homepage": "https://librewolf.net/",
     "license": "MPL-2.0",
+    "notes": [
+        "To set profile 'Scoop' as *DEFAULT*, or profiles/settings was lost after update:",
+        "  - Run 'LibreWolf Profile Manager', choose 'Scoop' then click 'Start LibreWolf'.",
+        "  - Visit 'about:profiles' page in LibreWolf to check *DEFAULT* profile.",
+        "For details: https://support.mozilla.org/en-US/kb/profile-manager-create-remove-switch-firefox-profiles"
+    ],
     "architecture": {
         "64bit": {
             "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/139.0.1-1/librewolf-139.0.1-1-windows-x86_64-portable.zip",
@@ -30,20 +36,22 @@
     "bin": [
         [
             "librewolf.exe",
-            "librewolf",
-            "-Profile \"$persist_dir/Profiles/Default\""
+            "librewolf"
         ]
     ],
     "shortcuts": [
         [
             "librewolf.exe",
-            "LibreWolf",
-            "-Profile \"$persist_dir/Profiles/Default\""
+            "LibreWolf"
         ],
         [
             "private_browsing.exe",
-            "LibreWolf Private Browsing",
-            "-Profile \"$persist_dir/Profiles/Default\" -private"
+            "LibreWolf Private Browsing"
+        ],
+        [
+            "librewolf.exe",
+            "LibreWolf Profile Manager",
+            "-P"
         ]
     ],
     "pre_uninstall": [
