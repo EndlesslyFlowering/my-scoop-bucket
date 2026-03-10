@@ -1,5 +1,5 @@
 {
-    "version": "146.0.1-1",
+    "version": "148.0-1",
     "description": "A fork of Firefox, focused on privacy, security and freedom.",
     "homepage": "https://librewolf.net/",
     "license": "MPL-2.0",
@@ -11,11 +11,11 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://gitlab.com/api/v4/projects/44042130/packages/generic/librewolf/146.0.1-1/librewolf-146.0.1-1-windows-x86_64-portable.zip",
-            "hash": "f251cfb6a80bc4d5128ace2dcb2582dca0f7e993ca1ea5a23727649910d5dca0"
+            "url": "https://codeberg.org/api/packages/librewolf/generic/librewolf/148.0-1/librewolf-148.0-1-windows-x86_64-portable.zip",
+            "hash": "d12193146857c43601d789ee7b87c419e56edc09a06a57caf46c1c1b226ab2a0"
         }
     },
-    "extract_dir": "librewolf-146.0.1-1/LibreWolf",
+    "extract_dir": "librewolf-148.0-1/LibreWolf",
     "pre_install": [
         "# Customizing LibreWolf Using AutoConfig",
         "# https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig",
