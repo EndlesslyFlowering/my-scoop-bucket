@@ -1,5 +1,5 @@
 {
-    "version": "20260426",
+    "version": "20260427",
     "description": "Video player based on MPlayer/mplayer2 (builds by EndlesslyFlowering)",
     "homepage": "https://mpv.io",
     "license": "LGPL-2.1-or-later,GPL-2.0-or-later",
@@ -11,8 +11,8 @@
     "suggest": {
         "yt-dlp": "yt-dlp"
     },
-    "url": "https://github.com/EndlesslyFlowering/mpv-winbuild-cmake/releases/download/20260426/mpv-x86_64-znver3-20260426-git-ed99433.7z",
-    "hash": "2745bb3e7f94f00171ae1273d9c5e87c6aef133931e9ae86d76daad3511c5674",
+    "url": "https://github.com/EndlesslyFlowering/mpv-winbuild-cmake/releases/download/20260427/mpv-x86_64-znver3-20260427-git-05b327c.7z",
+    "hash": "48675a420060ddfc37bcfdaf2094dad771b773e134e6e89985d581e946794687",
     "bin": "mpv.com",
     "shortcuts": [
         [
