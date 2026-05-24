@@ -1,12 +1,12 @@
 {
-    "version": "20260523",
+    "version": "20260524",
     "description": "A complete, cross-platform solution to record, convert and stream audio and video.",
     "homepage": "https://ffmpeg.org",
     "license": "GPL-3.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/EndlesslyFlowering/mpv-winbuild-cmake/releases/download/20260523/ffmpeg-x86_64-znver3-git-3a042a5ab.7z",
-            "hash": "97776277c0d6496b58da392fb357274920d42a2aaf435ef11fff4be3482f3198"
+            "url": "https://github.com/EndlesslyFlowering/mpv-winbuild-cmake/releases/download/20260524/ffmpeg-x86_64-znver3-git-3baab604d.7z",
+            "hash": "f7386d17f707864465ffebf97adf3e7e24ae81d6a77ebecf8e7ece4c43c039b9"
         }
     },
     "bin": [
