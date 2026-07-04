@@ -1,19 +1,19 @@
 {
-    "version": "2026_07_01_2fc0bc04",
+    "version": "2026_07_03_62a58c87",
     "description": "A stand-alone graphics debugging tool",
     "homepage": "https://renderdoc.org",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://renderdoc.org/autobuilds/v1.x/2026/RenderDoc_2026_07_01_2fc0bc04_64.zip",
-            "hash": "f464fa5eb79d1fe6a4df4ed829dbfead8384107632e5facf618c4ace72817a5f"
+            "url": "https://renderdoc.org/autobuilds/v1.x/2026/RenderDoc_2026_07_03_62a58c87_64.zip",
+            "hash": "618df346e28d9bcc456f3174c46cadeab34eb72130dcb1d2eebd6f81b072674e"
         },
         "32bit": {
-            "url": "https://renderdoc.org/autobuilds/v1.x/2026/RenderDoc_2026_07_01_2fc0bc04_64.zip",
-            "hash": "f464fa5eb79d1fe6a4df4ed829dbfead8384107632e5facf618c4ace72817a5f"
+            "url": "https://renderdoc.org/autobuilds/v1.x/2026/RenderDoc_2026_07_03_62a58c87_64.zip",
+            "hash": "618df346e28d9bcc456f3174c46cadeab34eb72130dcb1d2eebd6f81b072674e"
         }
     },
-    "extract_dir": "RenderDoc_2026_07_01_2fc0bc04_64",
+    "extract_dir": "RenderDoc_2026_07_03_62a58c87_64",
     "bin": [
         [
             "qrenderdoc.exe",
