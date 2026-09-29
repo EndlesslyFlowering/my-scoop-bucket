@@ -4,8 +4,7 @@
     "homepage": "https://github.com/irusanov/ZenTimings",
     "license": "GPL-3.0-only",
     "url": "https://github.com/irusanov/ZenTimings/releases/download/v140.665/ZenTimings_v140.665.zip",
-    "hash": "d9c535a1496e9e7a6f4d956a69e7220d1db3ff4494888fd09b5c44e9c503663e",
-    "extract_dir": "ZenTimings_v140.665",
+    "hash": "a220b5496af2798a4e09ec0857f4b757eb41e25b0c8bdd6464da28ae89ff2bcc",
     "bin": "ZenTimings.exe",
     "shortcuts": [
         [
