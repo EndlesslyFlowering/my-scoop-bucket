@@ -15,7 +15,7 @@
             "hash": "24c382200f961898469455d58b844f911d79cd34c473d48713666b7f71adbf13"
         }
     },
-    "extract_dir": "librewolf-159.0-1/LibreWolf",
+    "extract_dir": "librewolf-159.0-1",
     "pre_install": [
         "'LibreWolf-WinUpdater.exe', 'ScheduledTask-Create.ps1', 'ScheduledTask-Remove.ps1' | ForEach-Object { \"$dir/$_\" } | Remove-Item",
         "",
@@ -69,6 +69,6 @@
         "hash": {
             "url": "$url.sha256sum"
         },
-        "extract_dir": "librewolf-$version/LibreWolf"
+        "extract_dir": "librewolf-$version"
     }
 }
